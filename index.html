@@ -399,9 +399,19 @@
             </div>
             <div class="comments-box">
                 <label class="form-label" for="user-comments">Комментарий</label>
-                <textarea class="form-input" id="user-comments" name="comments" placeholder="Введите текст"></textarea>
+                <textarea class="form-textarea" id="user-comments" name="comments" placeholder="Введите текст"></textarea>
             </div>
-            
+            <div class="form-checkbox">
+                <input class="input-check visually-hidden" type="checkbox" name="policy" id="policy" value="policy">
+            <label class="form-policy" for="policy">
+                <span>
+                    <svg class="check-icon" width="11" height="8">
+                        <use href="./img/symbol-defs.svg#icon-VectorG"></use>
+                    </svg>
+                </span>
+                Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></label>
+            </div>
+            <button class="form-btn btn" type="submit">Отправить</button>
           </form>
       </div>
   </div>
